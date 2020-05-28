@@ -12,5 +12,4 @@ data = result['RealtimeCityAir']['row'] # js랑 같음
 
 for datum in data:
     print(datum['MSRSTE_NM'], datum['IDEX_MVL'])
-    
 
