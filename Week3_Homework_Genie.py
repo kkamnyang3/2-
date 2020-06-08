@@ -31,6 +31,11 @@ for music in musics:
     title = music.select_one('td.info > a.title.ellipsis')
     singer = music.select_one('td.info > a.artist.ellipsis')
     rank = music.select_one('td.number')
+    print(rank.text, title.text, singer.text)
 
+
+    #No mudule named 'bs4'가 자꾸 뜨는데 pip install bs4를 해도 문제가 해결되지 않아서 작동을 시켜보면서 볼 수가 없네요ㅠ
     
+
+
 
